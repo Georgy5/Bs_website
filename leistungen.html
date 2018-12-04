@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Salon Beatrice</title>
+  </head>
+  <body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="https://salonbeatrice.de">
+    <img src="img/logo.jpg" alt="Salon Beatrice"  style="height:40px;" class="rounded" >
+  </a>
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">  
+    <span class="navbar-toggler-icon"></span>                     
+  </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="nav navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="https://salonbeatrice.de/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://salonbeatrice.de/anfahrt.html">Anfahrt</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://salonbeatrice.de/leistungen.html">Leistungen</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://salonbeatrice.de/gallerie.html">Fotos</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+  <header class="masthead text-center text-white">
+    <div class="masthead-content">
+      <div class="container">
+        <h1 class="masthead-heading mb-0">Logo: Salon Beatrice</h1>
+        <h2 class="masthead-subheading mb-0">Logo placeholder</h2>
+      </div>
+    </div>
+  </header>
+
+<section class="content">
+	<div class="container text-center ">
+		<h1 class="my-4 text-center" style="color: #574545;">
+			Leistungen</h1>
+    <br>
+
+    <div class="col-lg-8 mx-auto text-center">
+      <small>Bild anklicken für vergrößerte Darstellung</small>
+      <img class="img-fluid img-thumbnail" id="myImg" src="img/preisliste.jpg" alt="Preisliste" style="width:100%;max-width:400px">
+    </div>
+
+    
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+
+		<div>
+      <p style="text-align: center;">
+        <a id="pdf" href="https://salonbeatrice.de/content/Preisliste.pdf" target="_blank" style="color: #574545;">Preisliste als PDF</a>
+      </p>
+      <br>
+      <br>
+  	</div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="text-center">
+        <ul>
+          <li style="display:inline-block;">
+            <a class="nav-link" href="https://salonbeatrice.de/impressum.html">Impressum</a>
+          </li>
+          <li style="display:inline-block;">
+            <a class="nav-link" href="https://salonbeatrice.de/datenschutz.html">Datenschutz</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer -->
+
+  <!-- JavaScript for image modal-->
+    <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById('myImg');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = "JPEG Bild";
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+        modal.style.display = "none";
+    }
+    </script>
+
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
