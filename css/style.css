@@ -9,7 +9,8 @@
 @media (min-width: 768px) {  
   body {font-size:1.6rem;} /*1rem = 16px*/
   h1, h2, h3, h4 {font-size:2rem;} /*1rem = 16px*/ 
-  .team-member p {font-size:75%;} 
+  .team-member p {font-size:75%;}
+  .navbar {font-size: 22px;} 
 }
  
 /* Large devices (desktops, 992px and up) */
@@ -17,6 +18,7 @@
   body {font-size:1.6rem;} /*1rem = 16px*/
   h1, h2, h3, h4 {font-size:2rem;} /*1rem = 16px*/ 
   .team-member p {font-size:70%;} 
+  .navbar {font-size: 25px;} 
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
@@ -24,6 +26,7 @@
   body {font-size:1.8rem;} /*1rem = 16px*/   
   h1, h2, h3, h4 {font-size:2.2rem;} /*1rem = 16px*/ 
   .team-member p {font-size:70%;} 
+  .navbar {font-size: 25px;} 
 }
 
 * {
@@ -39,10 +42,6 @@ html,
 body {
  height: 100%;
  position: relative;
-}
-
-.navbar {
-    font-size: 25px;
 }
 
 ul.nav a:hover { 
@@ -199,4 +198,4 @@ footer a:hover{
     .modal-content {
         width: 100%;
     }
-} 
+}
