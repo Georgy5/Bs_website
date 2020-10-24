@@ -1,2 +1,3 @@
 # Bs_website
-B's website development
+
+Code repository of the Development of salonbeatrice.de
