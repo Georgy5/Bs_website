@@ -42,6 +42,7 @@ html,
 body {
  height: 100%;
  position: relative;
+ color: #494949;
 }
 
 ul.nav a:hover { 
