@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Salon Beatrice</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Navigation -->
+      <nav id="sidebar" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="sidebar-header">
+          <a class="navbar-brand" href="#willkommen">
+            <img src="../img/logo.jpg" alt="Salon Beatrice"  style="height:40px;" class="rounded" >
+          </a>
+        </div>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">  
+          <span class="navbar-toggler-icon"></span>                     
+        </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="nav navbar-nav flex-column">
+              <li class="nav-item active">
+                <a class="nav-link" href="https://salonbeatrice.de/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://salonbeatrice.de/anfahrt.html">Anfahrt</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://salonbeatrice.de/leistungen.html">Leistungen</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://salonbeatrice.de/gallerie.html">Fotos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://salon-beatrice.belbo.com" target="_blank">Online Termin</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+
+      <header class="masthead text-center text-white">
+        <div class="masthead-content">
+          <div class="container">
+            <h1 class="masthead-heading mb-0">&nbsp;</h1>
+            <h2 class="masthead-subheading mb-0">&nbsp;</h2>
+          </div>
+        </div>
+      </header>
+      <div id="content">
+        
+        <!-- Salon Beatrice -->
+        <section id="top">
+          <div class="container">
+            <img class="img-fluid" src="../img/Salon_Beatrice.jpg" alt="Salon Beatrice">
+          </div>
+        </section>
+        
+        <!-- Homepage -->  
+        <!-- Teamfoto -->
+        <!-- background-color -->
+        <section id="team">
+          <div class="container white">
+            <div class="text-center">
+              <!-- TODO Teamfoto -->
+              <img class="img-fluid rounded" src="../img/salon_entrance.jpg" alt="Responsive image">
+            </div>
+          </div>
+        </section>
+
+      </div>
+      <!-- The Modal -->
+      <div class="modal fade in" id="myModal" style="display: block;">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h3 class="modal-title">Beim Friseurbesuch</h3>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <img src="../img/Piktogramm_Maske.png" class="img-fluid mx-auto d-block" alt="FFP2 Maske" width=60%>
+              <p></p>
+              <h4>Bitte tragen Sie bei uns eine FFP-2 Maske</h4>
+              <p></p>
+              <!-- negativer Antigentest -->
+              <p>Wir freuen uns über jeden Getesteten, Genessenen oder Geimpften der in den Salon kommt.</p>
+              <p>Der Nachweis eines negativen Tests ist Inzidenzwertabhängig. Ab einer Inzidenzwert über 100 gilt Testpflicht.</p>
+              Sie haben drei Möglichkeiten:
+              <ul>
+                <li>POC Test nicht älter als 24 Stunden</li>
+                <li>PCR Test nicht älter als 48 Stunden</li>
+                <li>Vor Ort besteht die Möglichkeit bei 10 min. früherem Kommen
+                  einen von Ihnen mitgebrachten Selbsttest durchzuführen</li>
+              </ul>
+              Vielen Dank,
+              <p>Selda, Primrada und Beatrice</p>
+              <img src="../img/locke" class="img-fluid" alt="Farbige Locke">
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark" data-dismiss="modal">OK</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+        // TODO
+        // $("#myModal").modal('show');
+        $('#sidebarCollapse').on('click', function () {
+          $('#sidebar').toggleClass('active');
+        });
+      });
+    </script>
+  </body>
+</html>
