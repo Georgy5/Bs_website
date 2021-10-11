@@ -171,6 +171,15 @@ footer a:hover{
     animation-duration: 0.6s;
 }
 
+.modal-row {
+  display: flex;
+}
+
+.modal-column {
+  flex: 50%;
+  padding: 5px;
+}
+
 @keyframes zoom {
     from {transform:scale(0)}
     to {transform:scale(1)}
@@ -199,13 +208,4 @@ footer a:hover{
     .modal-content {
         width: 100%;
     }
-}
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-  padding: 5px;
 }
