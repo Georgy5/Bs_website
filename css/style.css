@@ -200,3 +200,12 @@ footer a:hover{
         width: 100%;
     }
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
