@@ -45,7 +45,8 @@ body {
  color: #494949;
 }
 
-a {
+/* Style link to booking system */
+.belbo {
   color: #9fb70c;
   font-style: italic;
   font-weight: 500;
