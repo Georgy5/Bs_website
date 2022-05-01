@@ -45,6 +45,13 @@ body {
  color: #494949;
 }
 
+/* Style link to booking system */
+.belbo {
+  color: #9fb70c;
+  font-style: italic;
+  font-weight: 500;
+}
+
 ul.nav a:hover { 
     color: #fff !important; 
 }

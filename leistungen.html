@@ -54,29 +54,7 @@
 <section class="content">
 	<div class="container text-center ">
 		<h1 class="my-4 text-center" style="color: #574545;">Leistungen</h1>
-    <p>Hinweis: Bestimmte Leistungen werden aktuell aufgrund der Infektionsschutzmaßnahmen nicht angeboten.</p>
-
-    <div class="col-lg-8 mx-auto text-center">
-      <small>Bild anklicken für vergrößerte Darstellung</small>
-      <img class="img-fluid img-thumbnail" id="myImg" src="img/preisliste.jpg" alt="Preisliste" style="width:100%;max-width:400px">
-    </div>
-
-    
-
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-      <div id="caption"></div>
-    </div>
-
-		<div>
-      <p style="text-align: center;">
-        <a id="pdf" href="https://salonbeatrice.de/content/Preisliste.pdf" target="_blank" style="color: #574545;">Preisliste als PDF</a>
-      </p>
-      <br>
-      <br>
-  	</div>
+    <p>Bitte finden Sie die Preise und Leistungen im <a class="nav-link belbo" href="https://salon-beatrice.belbo.com" target="_blank">Onlinebuchungssystem</a></p>
   </section>
   
   <section class="content">
@@ -119,30 +97,6 @@
     </div>
   </footer>
   <!-- Footer -->
-
-  <!-- JavaScript for image modal-->
-    <script>
-    // Get the modal
-    var modal = document.getElementById('myModal');
-
-    // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var img = document.getElementById('myImg');
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
-    img.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = "JPEG Bild";
-    }
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() { 
-        modal.style.display = "none";
-    }
-    </script>
 
   <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
