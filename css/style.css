@@ -52,6 +52,16 @@ body {
   font-weight: 500;
 }
 
+.belbo-link {
+  text-decoration: underline;
+}
+.belbo-link:visited {
+  color: #574545;
+}
+.belbo-link:hover {
+  color: #9fb70c;
+}
+
 ul.nav a:hover { 
     color: #fff !important; 
 }
@@ -59,6 +69,10 @@ ul.nav a:hover {
 hr.whiteline{
     border-top: 3px solid white;
     max-width: 1024px;
+}
+
+.spacing-header-section{
+  padding-top: 40px;
 }
 
 div.message1 {
