@@ -1,0 +1,42 @@
+.card-model {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.card-model img {
+  height: 100%;
+  width: 48%;
+  object-fit: cover;
+}
+
+.card-model .before-after-img {
+  width: 40%;
+}
+
+.card-model h2 {
+  font-size: 100%;
+  margin: 0;
+}
+
+.card-model p {
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+  font-size: 80%;
+}
+
+.card-model .card-model-infos {
+  height: 100%;
+  padding: 16px;
+  width: 60%;
+}
+
+.card-model-infos {
+  overflow: auto;
+}

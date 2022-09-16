@@ -1,8 +1,12 @@
+/* Import components file */
+@import url("components/cards.css");
+
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  
   body {font-size:1.4rem;} /*1rem = 16px*/
   h1, h2, h3, h4 {font-size:1.6rem;} /*1rem = 16px*/
   .team-member p {font-size:90%;} 
+  .card-model {height: 110px;}
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -10,7 +14,8 @@
   body {font-size:1.6rem;} /*1rem = 16px*/
   h1, h2, h3, h4 {font-size:2rem;} /*1rem = 16px*/ 
   .team-member p {font-size:75%;}
-  .navbar {font-size: 22px;} 
+  .navbar {font-size: 22px;}
+  .card-model {height: 220px;}
 }
  
 /* Large devices (desktops, 992px and up) */
@@ -18,7 +23,8 @@
   body {font-size:1.6rem;} /*1rem = 16px*/
   h1, h2, h3, h4 {font-size:2rem;} /*1rem = 16px*/ 
   .team-member p {font-size:70%;} 
-  .navbar {font-size: 25px;} 
+  .navbar {font-size: 25px;}
+  .card-model {height: 33px;}
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
@@ -26,7 +32,8 @@
   body {font-size:1.8rem;} /*1rem = 16px*/   
   h1, h2, h3, h4 {font-size:2.2rem;} /*1rem = 16px*/ 
   .team-member p {font-size:70%;} 
-  .navbar {font-size: 25px;} 
+  .navbar {font-size: 25px;}
+  .card-model {height: 330px;}
 }
 
 * {
@@ -52,6 +59,25 @@ body {
   font-weight: 500;
 }
 
+.belbo-link {
+  text-decoration: underline;
+}
+.belbo-link:visited {
+  color: #574545;
+}
+.belbo-link:hover {
+  color: #9fb70c;
+}
+
+.telefon {
+  color: inherit;
+  text-decoration: none;
+}
+.telefon:hover {
+  color: #574545;
+  text-decoration: underline;
+}
+
 ul.nav a:hover { 
     color: #fff !important; 
 }
@@ -59,6 +85,21 @@ ul.nav a:hover {
 hr.whiteline{
     border-top: 3px solid white;
     max-width: 1024px;
+}
+
+.spacing-header-section{
+  padding-top: 40px;
+}
+.aktuelles {
+  font-size: 200% !important;
+}
+
+h2 a, a:hover, a:focus, a:active{
+  color: inherit;
+  text-decoration: none;
+}
+h2 a:hover {
+  border-bottom: 2px solid;
 }
 
 div.message1 {
