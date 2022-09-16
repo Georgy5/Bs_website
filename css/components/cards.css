@@ -36,3 +36,7 @@
   padding: 16px;
   width: 60%;
 }
+
+.card-model-infos {
+  overflow: auto;
+}
